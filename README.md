@@ -1,0 +1,1 @@
+# csm-hipchat-bot
