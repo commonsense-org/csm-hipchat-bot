@@ -15,5 +15,7 @@
    "giphy.coffee",
    "haters.coffee",
    "remind.coffee",
-   "hello.coffee"
+   "hello.coffee",
+   "bofh.coffee",
+   "roles.coffee"
 ] 
