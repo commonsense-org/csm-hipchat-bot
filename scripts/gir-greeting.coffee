@@ -19,7 +19,7 @@ gir = [
 
 module.exports = (robot) ->
 
-  regex = /.*(who)? gir.*/i
+  regex = /.*who.*gir.*/i
 
   robot.hear regex, (msg) ->
     msg.send msg.random gir
