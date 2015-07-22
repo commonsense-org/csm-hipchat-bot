@@ -10,5 +10,9 @@
   "moment",
   "lodash",
   "hubot-cheers",
-  "hubot-plusplus"
+  "hubot-plusplus",
+  "cleverbot-node",
+  "hubot-help",
+  "hubot-mute",
+  "hubot-outofcontext"
 ]

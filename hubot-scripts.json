@@ -16,6 +16,7 @@
    "haters.coffee",
    "remind.coffee",
    "hello.coffee",
-   "bofh.coffee",
-   "roles.coffee"
+   "calm-down.coffee",
+   "cleverbot.coffee",
+   "disassemble.coffee"
 ] 
