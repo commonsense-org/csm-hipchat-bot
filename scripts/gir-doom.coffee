@@ -19,7 +19,7 @@ gir = [
 
 module.exports = (robot) ->
 
-  regex = /.*\bdoom\b.*/i
+  regex = /.*\bdoom.*\b.*/i
 
   robot.hear regex, (msg) ->
     msg.send gir 
