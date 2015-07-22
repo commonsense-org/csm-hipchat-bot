@@ -12,7 +12,6 @@
     "hubot-circleci": "0.8.1",
     "flip": "0.1.1",
     "hubot-voting": "1.0.0",
-    "hubot-suggest": "0.0.1",
     "hubot-pusheen": "0.0.1",
     "hubot-react": "4.1.1",
     "chrono-node": "^0.1.10",

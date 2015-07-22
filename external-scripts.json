@@ -3,7 +3,6 @@
   "flip",
   "hubot-redis-brain",
   "hubot-voting",
-  "hubot-suggest",
   "hubot-pusheen",
   "hubot-react",
   "chrono-node",
