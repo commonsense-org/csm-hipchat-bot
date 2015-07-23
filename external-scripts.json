@@ -4,7 +4,6 @@
   "hubot-redis-brain",
   "hubot-voting",
   "hubot-pusheen",
-  "hubot-react",
   "chrono-node",
   "moment",
   "lodash",
