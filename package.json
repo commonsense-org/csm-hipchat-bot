@@ -22,6 +22,9 @@
     "cleverbot-node": "0.2.1",
     "hubot-help": "0.1.1", 
     "hubot-mute": "0.0.5",
-    "hubot-outofcontext": "1.0.1"
+    "hubot-outofcontext": "1.0.1",
+    "hubot-substitute": "0.2.0",
+    "hubot-darksky": "1.0.2",
+    "hubot-tell": "1.2.4"
   }
 }

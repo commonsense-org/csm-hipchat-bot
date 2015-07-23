@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   (yiss|aw{1,6}\,? yiss) - aww, yiss image
+#   aww yisss
 #
 # Author:
 #   itsthatguy (itg)

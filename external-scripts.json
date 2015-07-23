@@ -13,5 +13,8 @@
   "cleverbot-node",
   "hubot-help",
   "hubot-mute",
-  "hubot-outofcontext"
+  "hubot-outofcontext",
+  "hubot-substitute",
+  "hubot-darksky",
+  "hubot-tell"
 ]
