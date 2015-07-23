@@ -29,5 +29,5 @@ module.exports = (robot) ->
 
   robot.hear regex, (msg) ->
     message = msg.random messages
-    msg.send image.random
+    msg.send msg.random image
     msg.send message.replace "%", "@Marcus"

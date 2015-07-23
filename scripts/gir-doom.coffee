@@ -13,13 +13,10 @@
 # Author:
 #   mrmmorris
 
-gir = [
-  "https://www.youtube.com/watch?v=fqcn_TPu4qQ"
-]
-
 module.exports = (robot) ->
 
-  regex = /.*\bdoom.*\b.*/i
+  regex = /.*\bdoom[ed]?.*\b.*/i
 
   robot.hear regex, (msg) ->
-    msg.send gir 
+    msg.send "https://www.youtube.com/watch?v=fqcn_TPu4qQ" 
+    msg.send "Im gunna sing The Doom Song now!"

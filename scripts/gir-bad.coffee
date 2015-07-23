@@ -19,7 +19,7 @@ gir = [
 
 module.exports = (robot) ->
 
-  regex = /bad gir/i
+  regex = /(bad|hate) gir/i
 
   robot.hear regex, (msg) ->
     msg.send msg.random gir 

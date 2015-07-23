@@ -20,7 +20,7 @@ module.exports = (robot) ->
   robot.hear regex1, (msg) ->
     msg.send "YOU MUST CONSTRUCT ADDITIONAL PYLONS"
 
-  regex2 = /.*why can('t|t)? you.*/i
+  regex2 = /.*why can('t|t)? (you|they).*/i
 
   robot.hear regex2, (msg) ->
     msg.send "THEY MUST CONSTRUCT ADDITIONAL PYLONS"
