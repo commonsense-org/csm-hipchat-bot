@@ -23,4 +23,4 @@ module.exports = (robot) ->
 
   robot.hear regex, (msg) ->
     msg.send msg.random gir 
-    msg.send "Sorry, %...", msg.message.user.name
+    msg.send "Sorry, %...".replace "%", msg.message.user.name
