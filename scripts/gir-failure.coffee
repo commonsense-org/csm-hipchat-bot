@@ -17,7 +17,7 @@ image = [
   "http://vignette1.wikia.nocookie.net/zimwiki/images/d/dd/Bloodygir.png/revision/latest?cb=20120701203729"
 ]
 
-message = [
+messages = [
   "I'm sorry, %, I don't know what happened..."
   "Oops... %"
   "ERROR %"
@@ -28,5 +28,6 @@ module.exports = (robot) ->
   regex = /^Failure:.*/
 
   robot.hear regex, (msg) ->
-    msg.send image
-    msg.send msg.random message.replace "%",
+    message = msg.random messages
+    msg.send image.random
+    msg.send message.replace "%", "@Marcus"
