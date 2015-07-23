@@ -25,7 +25,7 @@ messages = [
 
 module.exports = (robot) ->
 
-  regex = /^Failure:.*/
+  regex = /^Failed:\b.*/
 
   robot.hear regex, (msg) ->
     message = msg.random messages
