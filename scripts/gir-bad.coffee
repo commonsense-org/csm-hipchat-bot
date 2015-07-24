@@ -13,14 +13,9 @@
 # Author:
 #   mrmmorris
 
-gir = [
-  "http://i44.tinypic.com/f4hc9x.jpg"
-]
-
 module.exports = (robot) ->
 
   regex = /(bad|hate|suck) gir/i
 
   robot.hear regex, (msg) ->
-    msg.send msg.random gir 
-    msg.send "Sorry, %...".replace "%", msg.message.user.name
+    msg.send "http://i44.tinypic.com/f4hc9x.jpg", "Sorry, %...".replace "%", msg.message.user.name

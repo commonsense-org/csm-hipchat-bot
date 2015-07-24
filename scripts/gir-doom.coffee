@@ -18,5 +18,4 @@ module.exports = (robot) ->
   regex = /.*\bdoom[ed]?.*\b.*/i
 
   robot.hear regex, (msg) ->
-    msg.send "https://www.youtube.com/watch?v=fqcn_TPu4qQ" 
-    msg.send "Im gunna sing The Doom Song now!"
+    msg.send "https://www.youtube.com/watch?v=fqcn_TPu4qQ", "Im gunna sing The Doom Song now!"
