@@ -18,7 +18,6 @@
     "lodash": "^2.4.1",
     "hubot-cheers": "1.0.0",
     "hubot-plusplus": "1.1.5",
-    "cleverbot-node": "0.2.1",
     "hubot-help": "0.1.1", 
     "hubot-mute": "0.0.5",
     "hubot-outofcontext": "1.0.1",

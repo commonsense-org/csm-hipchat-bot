@@ -9,7 +9,6 @@
   "lodash",
   "hubot-cheers",
   "hubot-plusplus",
-  "cleverbot-node",
   "hubot-help",
   "hubot-mute",
   "hubot-outofcontext",
