@@ -22,7 +22,6 @@
     "hubot-outofcontext": "1.0.1",
     "hubot-darksky": "1.0.2",
     "hubot-tell": "1.2.4",
-    "hubot-ambush": "0.3.0",
     "hubot-google-images": "0.1.5",
     "hubot-schedule": "0.2.0"
   }
