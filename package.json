@@ -24,6 +24,7 @@
     "hubot-tell": "1.2.4",
     "hubot-google-images": "0.1.5",
     "hubot-schedule": "0.2.0",
-    "hubot-react": "4.1.1"
+    "hubot-react": "4.1.1",
+    "hubot-baseball": "1.0.1"
   }
 }

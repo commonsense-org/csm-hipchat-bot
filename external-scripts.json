@@ -15,5 +15,6 @@
   "hubot-tell",
   "hubot-google-images",
   "hubot-schedule",
-  "hubot-react"
+  "hubot-react",
+  "hubot-baseball"
 ]
