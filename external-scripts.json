@@ -14,5 +14,6 @@
   "hubot-outofcontext",
   "hubot-darksky",
   "hubot-tell",
-  "hubot-ambush"
+  "hubot-ambush",
+  "hubot-google-images"
 ]
