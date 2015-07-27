@@ -2,7 +2,6 @@
   "hubot-circleci",
   "flip",
   "hubot-redis-brain",
-  "hubot-voting",
   "hubot-pusheen",
   "chrono-node",
   "moment",
