@@ -22,6 +22,7 @@
     "hubot-mute": "0.0.5",
     "hubot-outofcontext": "1.0.1",
     "hubot-darksky": "1.0.2",
-    "hubot-tell": "1.2.4"
+    "hubot-tell": "1.2.4",
+    "hubot-ambush": "0.3.0"
   }
 }

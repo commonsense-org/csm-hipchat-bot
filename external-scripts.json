@@ -13,5 +13,6 @@
   "hubot-mute",
   "hubot-outofcontext",
   "hubot-darksky",
-  "hubot-tell"
+  "hubot-tell",
+  "hubot-ambush"
 ]
