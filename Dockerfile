@@ -26,4 +26,4 @@ RUN chmod +x start.sh
 ENTRYPOINT ["./start.sh"]
 
 USER hubot
-CMD bin/hubot -a hipchat
+CMD bin/hubot
