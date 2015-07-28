@@ -21,5 +21,5 @@ module.exports = (robot) ->
   robot.hear /calm down|simmer down/i, (msg) ->
     msg.send msg.random calm
 
-  robot.hear /^[^a-z]*$/, (msg) -> 
+  robot.hear /^[^a-z]*$/m, (msg) -> 
     msg.send msg.random calm
