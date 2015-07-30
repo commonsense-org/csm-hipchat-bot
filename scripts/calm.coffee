@@ -5,9 +5,8 @@
 #   None
 #
 # Commands:
-#   hubot calm me | manatee me 
-#   calm down | simmer down | that escalated quickly 
-#   ALL CAPS | LONGCAPS 
+#   calm down | simmer down 
+#   ALL CAPS
 
 module.exports = (robot) ->
 

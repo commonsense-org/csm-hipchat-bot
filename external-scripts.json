@@ -17,5 +17,6 @@
   "hubot-schedule",
   "hubot-react",
   "hubot-baseball",
-  "hubot-thecat"
+  "hubot-thecat",
+  "hubot-voting"
 ]

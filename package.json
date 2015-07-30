@@ -26,6 +26,7 @@
     "hubot-schedule": "0.2.0",
     "hubot-baseball": "1.0.1",
     "hubot-thecat": "1.0.1",
-    "hubot-react": "git://github.com/pperez/hubot-react.git#4.1.1"
+    "hubot-react": "git://github.com/pperez/hubot-react.git#4.1.1",
+    "hubot-voting": "1.0.0"
   }
 }
