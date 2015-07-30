@@ -18,7 +18,7 @@ USER hubot
 WORKDIR /hubot
 
 RUN yo hubot --name="Gir" --owner="<Marcus Morris> mmorris@commonsense.org" --description="The pig... COMMANDS ME!" --defaults
-COPY ./package.json .
+COPY package.json /hubot/
 RUN npm install
 
 COPY . .
@@ -27,5 +27,5 @@ USER root
 RUN chmod +x start.sh
 ENTRYPOINT ["./start.sh"]
 
-USER hubot
-CMD bin/hubot 
+#USER hubot
+#CMD bin/hubot 
