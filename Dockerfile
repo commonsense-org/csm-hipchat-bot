@@ -4,7 +4,7 @@ ENV HUBOT_GIPHY_API_KEY dc6zaTOxFJmzC
 ENV HUBOT_MUTE_ROOM_PREFIX=
 
 RUN apt-get update && \
-    apt-get -y install expect redis-server nodejs npm && \
+    apt-get -y install expect redis-server nodejs npm git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -27,5 +27,5 @@ USER root
 RUN chmod +x start.sh
 ENTRYPOINT ["./start.sh"]
 
-#USER hubot
-#CMD bin/hubot 
+USER hubot
+CMD bin/hubot -a hipchat
