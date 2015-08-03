@@ -21,7 +21,7 @@ gir = [
 
 module.exports = (robot) ->
 
-  regex = /.*love.*gir.*/i
+  regex = /.*(good|love).*gir.*/i
 
   robot.hear regex, (msg) ->
     msg.send msg.random gir
