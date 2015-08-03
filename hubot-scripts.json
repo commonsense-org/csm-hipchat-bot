@@ -16,5 +16,7 @@
    "remind.coffee",
    "disassemble.coffee",
    "dealwithit.coffee",
-   "beerme.coffee"
+   "beerme.coffee",
+   "isup.coffee",
+   "insult.coffee"
 ] 
