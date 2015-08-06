@@ -23,7 +23,7 @@
     "hubot-darksky": "1.0.2",
     "hubot-tell": "1.2.4",
     "hubot-google-images": "0.1.5",
-    "hubot-schedule": "0.2.0",
+    "hubot-schedule": "0.2.1",
     "hubot-baseball": "1.0.1",
     "hubot-thecat": "1.0.1",
     "hubot-react": "git://github.com/pperez/hubot-react.git#4.1.1",
