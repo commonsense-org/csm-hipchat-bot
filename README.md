@@ -1,1 +1,1 @@
-# csm-hipchat-bot
+# csm-slack-bot
