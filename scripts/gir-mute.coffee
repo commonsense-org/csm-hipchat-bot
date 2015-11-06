@@ -69,7 +69,7 @@ module.exports = (robot) ->
   
   robot.hear /^(?=.*(gir))(?=.*?((be)? quiet|shut[ ]?up))/i, (msg) ->
     msg.finish()
-    channel = msg.message.room
+    channel = process.env.HUBOT_MUTE_ROOM_PREFIX + msg.message.room
     action = "mute"
     message = [
                 "slips into the shadows..."
