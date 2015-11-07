@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 
+ENV PORT 8080
 ENV HUBOT_GIPHY_API_KEY dc6zaTOxFJmzC
 ENV HUBOT_MUTE_ROOM_PREFIX #
 
@@ -28,4 +29,5 @@ RUN chmod +x start.sh
 ENTRYPOINT ["./start.sh"]
 
 USER hubot
+EXPOSE 8080 
 CMD bin/hubot -a slack
