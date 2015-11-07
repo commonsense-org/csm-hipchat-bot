@@ -30,6 +30,6 @@
     "hubot-voting": "1.0.0",
     "hubot-insulter": "1.0.2",
     "hubot-slack-google-auth": "0.1.1",
-    "hubot-slack-gcal": "0.1.0"
+    "hubot-slack-gcal": "git://github.com/jsmestad/hubot-slack-gcal.git"
   }
 }
