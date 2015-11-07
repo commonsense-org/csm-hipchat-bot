@@ -28,6 +28,7 @@
     "hubot-thecat": "1.0.1",
     "hubot-react": "git://github.com/pperez/hubot-react.git#4.1.7",
     "hubot-voting": "1.0.0",
-    "hubot-insulter": "1.0.2"
+    "hubot-insulter": "1.0.2",
+    "hubot-slack-gcal": "0.1.0"
   }
 }

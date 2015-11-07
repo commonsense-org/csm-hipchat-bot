@@ -19,5 +19,7 @@
   "hubot-baseball",
   "hubot-thecat",
   "hubot-voting",
-  "hubot-insulter"
+  "hubot-insulter",
+  "hubot-slack-google-auth",
+  "hubot-slack-gcal"
 ]
