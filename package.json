@@ -22,7 +22,7 @@
     "hubot-outofcontext": "1.0.1",
     "hubot-darksky": "1.0.2",
     "hubot-tell": "1.2.4",
-    "hubot-google-images": "0.1.5",
+    "hubot-google-images": "git://github.com/wjr1985/hubot-google-images.git#bing_fallback",
     "hubot-schedule": "0.2.1",
     "hubot-baseball": "1.0.1",
     "hubot-thecat": "1.0.1",
