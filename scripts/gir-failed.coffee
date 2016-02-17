@@ -16,7 +16,7 @@
 HubotSlack = require 'hubot-slack'
 
 image = [
-  "http://vignette1.wikia.nocookie.net/zimwiki/images/d/dd/Bloodygir.png/revision/latest?cb=20120701203729"
+  "https://common-sense.slack.com/files/marcus/F0MM08E1L/bloodygir.png"
 ]
 
 messages = [
