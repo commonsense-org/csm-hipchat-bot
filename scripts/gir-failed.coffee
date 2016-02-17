@@ -27,8 +27,8 @@ module.exports = (robot) ->
 
   regex = /^(Failed:|Timed out:).*/
 
-  robot.hear regex, (msg) ->
-    robot.listeners.push new SlackBotListener(robot, regex, callback)
+  robot.hear regex, callback
+  robot.listeners.push new SlackBotListener(robot, regex, callback) (msg) ->
     message = msg.random messages
     msg.send msg.random image
     msg.send message.replace "%", "@Marcus"
