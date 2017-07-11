@@ -3,6 +3,8 @@ FROM ubuntu:14.04
 ENV HUBOT_GIPHY_API_KEY dc6zaTOxFJmzC
 ENV HUBOT_MUTE_ROOM_PREFIX=
 
+RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+
 RUN apt-get update && \
     apt-get -y install expect redis-server nodejs npm git && \
     apt-get clean && \
