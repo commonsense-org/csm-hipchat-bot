@@ -5,10 +5,10 @@
   "author": "mmorris@commonsense.org",
   "description": "A simple helpful robot",
   "dependencies": {
-    "hubot": "^2.9.3",
+    "hubot": "2.19.0",
     "hubot-scripts": "2.16.1",
-    "hubot-redis-brain": "0.0.2",
-    "hubot-slack": "3.4.2",
+    "hubot-redis-brain": "0.0.4",
+    "hubot-hipchat": "2.12.0-5",
     "hubot-circleci": "0.8.1",
     "flip": "0.1.1",
     "hubot-pusheen": "0.0.1",
@@ -17,19 +17,17 @@
     "lodash": "^2.4.1",
     "hubot-cheers": "1.0.0",
     "hubot-plusplus": "1.1.5",
-    "hubot-help": "0.1.1", 
+    "hubot-help": "0.2.2", 
     "hubot-mute": "0.0.5",
     "hubot-outofcontext": "1.0.1",
     "hubot-darksky": "1.0.2",
     "hubot-tell": "1.2.4",
-    "hubot-google-images": "0.1.5",
+    "hubot-google-images": "git://github.com/wjr1985/hubot-google-images.git#bing_fallback",
     "hubot-schedule": "0.2.1",
     "hubot-baseball": "1.0.1",
     "hubot-thecat": "1.0.1",
     "hubot-react": "git://github.com/pperez/hubot-react.git#4.1.7",
     "hubot-voting": "1.0.0",
-    "hubot-insulter": "1.0.2",
-    "hubot-slack-google-auth": "0.1.1",
-    "hubot-slack-gcal": "git://github.com/jsmestad/hubot-slack-gcal.git"
+    "hubot-insulter": "1.0.2"
   }
 }
