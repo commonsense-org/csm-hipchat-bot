@@ -6,7 +6,6 @@
    "alot.coffee",
    "applause.coffee",
    "availability.coffee",
-   "catfacts.coffee",
    "encourage.coffee",
    "excuse.coffee",
    "flip.coffee",
@@ -16,6 +15,15 @@
    "disassemble.coffee",
    "dealwithit.coffee",
    "beerme.coffee",
+   "wordnik.coffee",
+   "adult.coffee",
+   "animal.coffee"
+   "aww.coffee",
+   "bang-bang.coffee",
+   "mitch-hedberg.coffee",
+   "deadline.coffee",
+   "octocat.coffee",
+   "phpdoc.coffee",
    "isup.coffee",
-   "wordnik.coffee"
+   "kittens.coffee"
 ] 
